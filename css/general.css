@@ -1,0 +1,38 @@
+*{
+    font-family: sans-serif;
+}
+
+/* Menu de inicio general */
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    z-index: 1;
+    background-color: rgba(31, 30, 30, 0.596);
+}
+.menu h1{
+    color: white;
+    font-size: 40px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.menu a:hover{
+    color: rgb(43, 255, 0);
+}
+
+/* Barra menu fondo IMG */
+.img-barramenu{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
