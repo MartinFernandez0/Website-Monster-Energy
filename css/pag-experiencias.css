@@ -1,0 +1,22 @@
+body{
+    background-image: url(/img/fondo/fondo_img.PNG);
+}
+
+
+#contenedorLibros{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    color: rgb(255, 255, 255);
+}
+
+#contenedorLibros img {
+    width: auto;
+    height: 250px;
+}
+
+/* styles.css o tu archivo CSS externo */
+#agregarEditarForm .form-control img {
+max-width: 200px;
+max-width: 200px;
+}
